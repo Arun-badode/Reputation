@@ -1,0 +1,30 @@
+
+    .risk-tag {
+      border-radius: 5px;
+      font-size: 12px;
+      padding: 3px 6px;
+      font-weight: 500;
+    }
+    .risk-high { background-color: #ffe2e2; color: #c30000; border-left: 2px solid #c30000; }
+    .risk-medium { background-color: #fff4d2; color: #a67700; border-left: 2px solid #a67700; }
+    .risk-low { background-color: #d7f7e4; color: #1e7d4d; border-left: 2px solid #1e7d4d;}
+    .issue-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 12px; 
+    }
+    .issue-card-high {
+      border-left: 2px solid #c30000; 
+    }
+    .issue-card-medium{
+      border-left: 2px solid #a67700; 
+    }
+    .issue-card-low{
+      border-left: 2px solid #1e7d4d;
+    }
+    .header-controls button {
+      margin-left: 10px;
+    }
+ 

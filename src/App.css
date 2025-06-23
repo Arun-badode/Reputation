@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css");
+
+a:hover {
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #f8f9fa;
+}
+
+/* main-app-content-start */
+.Main-App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Main-App-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.Main-App-Content {
+  flex: 1;
+  padding: 10px 10px;
+  overflow-y: auto;
+  transition: margin-left 0.3s ease;
+  background-color: #f4f4f4;
+}
+/* main-app-content-end */
+/* navbar-start */
+.navbar {
+  /* background-color: #f6f6f6; */
+  /* color: white; */
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-left: 260px; */
+}
+.toggle-button {
+  background: none;
+  border: none;
+  color: #6B7280;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 18px;
+  font-weight: bold;
+}
+.nav-notification-icon i{
+  color: #6B7280;
+}
+.nav-notification-icon{
+  font-size: 30px;
+  margin-right: 35px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.navbar-title{
+  margin-left: 14px !important;
+}
+/* navbar-end */
+
+/* ///////////////////////////////////////// */
